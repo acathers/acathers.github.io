@@ -85,31 +85,46 @@
       "gpa": "",
       "courses": [
       ]
-    }
+    },
+    {
+      "institution": "Windward Community College, Kaneohe, HI",
+      "area": "Liberal Arts",
+      "studyType": "A.A.",
+      "startDate": "2017-01-01",
+      "endDate": "2018-12-14",
+      "gpa": "3.7",
+      "courses": [
+      ]
+    },
+    
   ],
   "work": [
     {
       "company": "JiffLube",
       "position": "Lead mechanic",
-      "website": "",
+      "website": "http://www.jiffylube.com",
       "startDate": "2017-03-11",
       "endDate": "Present",
       "summary": "Lead mechanic",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Repaired variety of makes/models utilizing appropriate repair manuals and tools",
+        "Automated closing reports using Java and Apache POI library"
       ]
     },
     {
       "company": "United States Marine Corps",
       "position": "Sergeant/Supply Management/Maintenance Chief",
-      "website": "http://www.hawaii.edu/its/",
+      "website": "http://www.marines.mil",
       "startDate": "2009-06-01",
       "endDate": "2016-06-26",
       "summary": "Ensure fleet of vehicles operational",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Managed fleet of over 70 vehicles ensuring 100% accountability and all required repairs were completed in a timely manner.",
+        "Projected requirements for future maintenance to prevent downtime of all equipment.",
+        "Maintained contact with all customers ensuring they were kept informed and ensured that all efforts were being made to meet timelines",
+        "Ensured any and all technical service bulletins were applied to assets of the fleet to maximize personnel safety and objective completion.",
+        "Facilitated the removal and disposal of all hazardous wastes produced during day to day operations",
+        "Trained all employees on proper safety measures resulting in a 100% accident free workplace."
       ]
     }
   ],
