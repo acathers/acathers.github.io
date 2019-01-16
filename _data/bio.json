@@ -2,7 +2,8 @@
   "basics": {
     "name": "Anthony Cathers",
     "label": "Student",
-    "picture": "https://acathers.github.io/acathers.github.io/images/anthony.jpg",
+    "picture": "acathers.github.io/images/anthony.jpg
+      ",
     "email": "acathers@hawaii.edu",
     "phone": "808-333-4444",
     "website": "https://acathers.github.io",
