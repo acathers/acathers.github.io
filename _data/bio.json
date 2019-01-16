@@ -5,7 +5,7 @@
     "picture": "acathers.github.io/images/anthony.jpg
       ",
     "email": "acathers@hawaii.edu",
-    "phone": "808-333-4444",
+    "phone": "808-308-3246",
     "website": "https://acathers.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate Fall, 2020.",
     "location": {
@@ -78,7 +78,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected December, 2018)",
       "studyType": "B.S.",
       "startDate": "2019-01-07",
       "endDate": "Present",
@@ -94,6 +94,7 @@
       "endDate": "2018-12-14",
       "gpa": "3.7",
       "courses": [
+        "blah"
       ]
     },
     
