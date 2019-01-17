@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
+title: Automatic to Manual Conversion
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-01-16
 labels:
   - Lisp
   - GitHub
-summary: A text adventure game I developed for ICS 313.
+summary: When I was around sixteen, me and my cousin decided to convert our car from automatic to manual.
 ---
 
 <img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
@@ -18,7 +18,6 @@ Cotton is a horror-esque text-based adventure game I developed using the functio
 
 To give you a flavor of the game, here is an excerpt from one run:
 
-<hr>
 
 <pre>
 You open your eyes, and you are greeted by an unfamiliar ceiling.
