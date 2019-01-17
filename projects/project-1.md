@@ -16,8 +16,6 @@ summary: I automated the closing tasks at my current job, but pulling data from 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/papers-everywhere.jpg">
   <img class="ui image" src="../images/papers-organized.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
 At my current job closing the store required sifting through numerous reports and pulling data and putting it into a different report. This was a tedious task that I decided could be automated, and appealed heavily to my desire to get things done quickly.
