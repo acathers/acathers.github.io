@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: ReportGenerator
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16
@@ -46,7 +46,7 @@ public boolean setStartRowAndCol(Workbook wb) {
   }
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+If you wish to take a look at the full code (https://github.com/acathers/ReportGenerator)
 
 
 
