@@ -15,5 +15,11 @@ When I was younger and still had time to spare, me and my cousin took on a fairl
 
 Starting out we found a slightly newer Honda Prelude that had front-end damage in our local junkyard. We spent a day there pulling the transmission and picking various other parts that we'd need to complete the conversion, such as center console, clutch pedal, and the master cylinder.
 
+<img class="ui medium right floated rounded image" src="../images/junk-yard.jpg">
+
 From there we had to pull the motor from the car we were going to put the new transmission into. We removed the old transmission and cleaned up the motor while we had it out. From there it was fairly straight forward, just a matter of remembering how everything went. 
+
+<img class="ui medium right floated rounded image" src="../images/motor-transmission.jpg">
+
+
 
