@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
+title: ShuntingYard
 permalink: projects/ShuntingYard
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16
