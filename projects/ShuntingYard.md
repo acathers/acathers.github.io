@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/shuntingyard-train.png
+image: images/shuntingyard-train.jpg
 title: ShuntingYard
 permalink: projects/ShuntingYard
 # All dates must be YYYY-MM-DD format!
