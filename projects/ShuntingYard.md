@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/shunting-yard.png
+image: images/shuntingyard-train.png
 title: ShuntingYard
 permalink: projects/ShuntingYard
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ labels:
 summary: A simple implementation of the Shunting Yard alogorithm used to parse infix notation to postfix.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/shunting-yard.png">
 
 This is just a simple implementation of the Shunting Yard algorithm, used to parse infix notation, that I wrote in Java. It was the start of a graphical scientify calculator that life had to put on hold. I still plan to finish it, but probably during this summer.
 
