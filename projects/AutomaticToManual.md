@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/honda-prelude.jpeg
 title: Automatic to Manual Conversion
 date: 2019-01-16
 labels:
