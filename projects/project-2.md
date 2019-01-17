@@ -35,4 +35,4 @@ The bulk of the logic is in this
 
 In this project I gained experience using a debugger, and using the Comparable interface in java, both make life a lot easier. I also found out that Java does not have a simple way of telling if something is numeric.
  
-Source: <a href="https://github.com/acathers/ShuntingYard"><i class="large github icon"></i>ShuntingYard/vacay</a>
+Source: <a href="https://github.com/acathers/ShuntingYard"><i class="large github icon"></i>ShuntingYard</a>
