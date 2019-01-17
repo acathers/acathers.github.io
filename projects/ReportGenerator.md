@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/report.png
 title: ReportGenerator
 permalink: projects/ReportGenerator
 # All dates must be YYYY-MM-DD format!
