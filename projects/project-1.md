@@ -10,7 +10,7 @@ labels:
   - Automatization
   - Java
   - Apache POI
-summary: I automated the closing tasks at my current job, but pulling data from multiple excel documents using Apache POI
+summary: I automated the closing tasks at my current job, by pulling data from multiple excel documents using Apache POI
 ---
 
 <div class="ui small rounded images">
