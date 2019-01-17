@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/micromouse.jpg
 title: ReportGenerator
-permalink: projects/micromouse
+permalink: projects/ReportGenerator
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16
 labels:
