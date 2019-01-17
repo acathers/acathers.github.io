@@ -5,12 +5,12 @@ image: images/micromouse.jpg
 title: Micromouse
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-01-16
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Automatization
+  - Java
+  - Apache POI
+summary: I automated the closing tasks at my current job, but pulling data from multiple excel documents using Apache POI
 ---
 
 <div class="ui small rounded images">
@@ -20,22 +20,30 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+At my current job closing the store required sifting through numerous reports and pulling data and putting it into a different report. This was a tedious task that I decided could be automated, and appealed heavily to my desire to get things done quickly.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project I used java, which is the language I am most comfortable with. All of our reports were in excel format, so for the reading/writing to the documents I used the Apache POI library. The main hurdle was that none of this data was in an easy to parse format, so basically I had to pick a cell on the report that would act as the base, and then hard code offsets for the data I wanted. 
 
-Here is some code that illustrates how we read values from the line sensors:
+Another issue was Apache POI itself. It seems to have gone through quite a few changes in its lifecycle and the documentation links to deprecation after deprecation. Finding the correct and current methods to do what I wanted was a bit like finding a needle in a haystack. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
+Here is an example of how I had to set the base cell
+
+```java
+public boolean setStartRowAndCol(Workbook wb) { 
+    Sheet sheet = wb.getSheetAt(0);
+    DataFormatter dataFormatter = new DataFormatter();
+
+    for (Row row : sheet) {
+      for (Cell cell : row) {
+        if (dataFormatter.formatCellValue(cell).equals("For Specified Date Range")) {
+          startRow = cell.getRowIndex();
+          startCol = cell.getColumnIndex();
+          return true;
+        }
+      }
     }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+    return false;
+  }
 ```
 
 You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
