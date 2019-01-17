@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "anthonycathers",
         "url": "http://linkedin.com/in/anthonycathers"
-      },
+      }
      ]
   },
   "interests": [
@@ -46,7 +46,7 @@
       "name": "Gaming",
       "keywords": [
         "Counter Strike",
-        "Stardew Valley",        
+        "Stardew Valley"        
       ]
     }
   ],
@@ -59,7 +59,7 @@
         "C++",
         "Java",
         "Javascript",
-        "Spring Boot",
+        "Spring Boot"
        ]
     },
     {
@@ -70,7 +70,7 @@
         "BSD",
         "Git/GitHub",
         "Maven",
-        "Scenebuilder",
+        "Scenebuilder"
       ]
     }
   ],
@@ -94,7 +94,7 @@
       "gpa": "3.7",
       "courses": [
        ]
-    },
+    }
     
   ],
   "work": [
