@@ -14,8 +14,8 @@ summary: I automated the closing tasks at my current job, but pulling data from 
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
+  <img class="ui image" src="../images/papers-everywhere">
+  <img class="ui image" src="../images/papers-organized">
   <img class="ui image" src="../images/micromouse.jpg">
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
