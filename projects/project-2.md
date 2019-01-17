@@ -3,23 +3,36 @@ layout: project
 type: project
 image: images/vacay-square.png
 title: Vacay
-permalink: projects/vacay
+permalink: projects/ShuntingYard
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-01-16
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Java
+  - Math
+  - Shunting Yard
+  - Algorithm
+summary: A simple implementation of the Shunting Yard alogorithm used to parse infix notation to postfix.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This is just a simple implementation of the Shunting Yard algorithm, used to parse infix notation, that I wrote in Java. It was the start of a graphical scientify calculator that life had to put on hold. I still plan to finish it, but probably during this summer.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+It uses a few more advanced techniques in the java language such as implementing the Comparable interface and a stack. I mainly wrote it for the learning experience, as it was my first algorithm that I ever implemented by myself. While rather simple to some probably, it was a hurdle getting it to behave how I wanted and correctly.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+The bulk of the logic is in this 
+```java
+ while (!operatorStack.isEmpty()
+            && (operatorStack.peek().compareTo(operator) == 1
+                || (operatorStack.peek().compareTo(operator) == 0
+                    && operatorStack.peek().leftAssociative))
+            && !operatorStack.peek().getOperator().equals("(")) {
+          queue.add(operatorStack.pop().getOperator());
+        }
+        operatorStack.push(operator);
+```
+
+
+In this project I gained experience using a debugger, and using the Comparable interface in java, both make life a lot easier. I also found out that Java does not have a simple way of telling if something is numeric.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+Source: <a href="https://github.com/acathers/ShuntingYard"><i class="large github icon"></i>ShuntingYard/vacay</a>
