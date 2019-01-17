@@ -45,7 +45,7 @@ public boolean setStartRowAndCol(Workbook wb) {
   }
 ```
 
-If you wish to take a look at the full code (https://github.com/acathers/ReportGenerator)
+Source: <a href="https://github.com/acathers/ReportGenerator"><i class="large github icon"></i>ReportGenerator</a>
 
 
 
