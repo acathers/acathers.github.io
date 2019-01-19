@@ -26,4 +26,20 @@ var value = 0;
 ```
 
 <h2>Var</h2>
-All of the different "types" you can use in Javascript are not referring to their data type, but instead their behavior. If you use var 
+All of the different "types" you can use in Javascript are not referring to their data type, but instead their behavior. If you use var the variable will either be scoped to the function it's inside of or global.
+
+```js
+console.log(i);
+for(var i = 0; i < 10; i++){
+}
+
+console.log(i);
+```
+
+The above snippet shows a bit of oddities with using var. First, how on earth am I able to use the variable i before it was declared? That is due to something called hoisting. With javascript if you use var, the declaration, not the assignment, is hoisted to the top. So it won't error but it will print undefined since only the declaration was hoisted.
+
+Now how did I use the variable outside of the for loop? Thats explained by vars scoping rules. It is either local to the function or global. Since it was no declared within a function it is a global variable and thus is visible to all.
+
+
+
+
