@@ -6,6 +6,7 @@ date: 2019-01-18
 labels:
   - Javascript
   - Weak vs Strongly typed
+  - Variable Assignment
   
 ---
 
@@ -32,7 +33,7 @@ All of the different "types" you can use in Javascript are not referring to thei
 console.log(i); //ME: there's no way this can work! JS: "Hold my beer!"
 for(var i = 0; i < 10; i++){
 	
-	}
+}
 
 console.log(i);
 ```
@@ -60,10 +61,10 @@ i = 3; //error
 
 for(const j = 0; j < 10; j++) { //error
   
-	}
+}
 
 {
-  const k = 0;
+  const k = 0; // is defined in it's own scope
 }
 
 console.log(k); //error
@@ -86,9 +87,9 @@ NaN
 So what is a truthy value might you ask? Literally everything else. Take the example below
 
 ```js
-  if("Do aliens exist?"){
-  	console.log("THEY DO!") //will print
-  }
+if("Do aliens exist?"){
+  console.log("THEY DO!") //will print
+}
 ```
   
 Now with regards to == and === the former is a loose equality testing. Basically meaning if it can be converted to the same "type" and compared it will return true. === is strict equality testing. Meaning if they are not the same type it will return false.
@@ -100,11 +101,11 @@ let y = "1";
   
 if(x == y){
   console.log("x == y is true"); // will print
-  }
+}
   
 if(x === y) {
   console.log("x === y is true"); // will not print
-  }
+}
 ```
   
   In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true.
@@ -113,7 +114,7 @@ if(x === y) {
 
 <h2>Opinion</h2>
 
-Now, what is my opinion on Javascript might you ask? Well if it was before ES6 and I only had var to work with I might have screamed. But it seems that with the newer standards javascript is bringing a little bit more structure to the style in which people use it. As of right now, I think I like it, but as I delve furthur into its depths, I'm sure there will be oddities that rub me the wrong way, but that's true of any language. I could get into truthiness but that 
+Now, what is my opinion on Javascript might you ask? Well if it was before ES6 and I only had var to work with I might have screamed. But it seems that with the newer standards javascript is bringing a little bit more structure to the style in which people use it. As of right now, I think I like it, but as I delve furthur into its depths, I'm sure there will be oddities that rub me the wrong way, but that's true of any language. As long as you keep in mind a few of the oddities and stick to the newer ES6 standard I don't see any issues with javascript that would make me absolutely hate it. I do however prefer a more structured language like Java, but I can definitely see the need and the usefulness of javascript.
   
 
 
