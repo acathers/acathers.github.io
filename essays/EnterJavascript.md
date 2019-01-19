@@ -108,7 +108,7 @@ if(x === y) {
 }
 ```
   
-In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true.
+In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true, and 'x === y will require they to be of the same type, so will not evaluate as true.
  
   
 
