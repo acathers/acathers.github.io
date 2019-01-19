@@ -10,20 +10,20 @@ labels:
   
 ---
 
-My first programming language that I could call myself proficient with was Java. I fell in love with the structure, the verbosity, and the overall standard java library. Everything seems well thought out and put together in that language. Now, enter Javascript. At first it seems like the wild west of programming languages. One example is instead of implicitly declaring a variable and declaring its type like in java, it's inferred. This is called being a weakly typed language and is a bit worrisom at first.
+My first programming language that I could call myself proficient with was Java. I fell in love with the structure, the verbosity, and the overall standard java library. Everything seems well thought out and put together in that language. Now, enter Javascript. At first it seems like the wild west of programming languages. One example is instead of implicitly declaring a variable and declaring its type like in java, it's inferred. This is called being a weakly typed language and is a bit worrisom at first. I'm going to go over a few of the differences someone coming from java might have issue with migrating to javascript, mainly var, let, const, and truthiness.
 
-In Java we would do this
+In Java we would do this if we wanted to declare and assign an integer value of 0 to a variable
 ```java
-int value = 0;
+int value = 0; // example of being strongly typed, we declare the data type int
 ```
 
 in Javascript you can do it in a multitude of ways.
 
 ```js
-value = 0;
-let value = 0;
-const value = 0;
-var value = 0;
+value = 0; //global
+let value = 0; //block scoped
+const value = 0; //block scoped and can't be reassigned
+var value = 0; //scoped to function or global, and hoisted
 ```
 
 <h2>Var</h2>
@@ -70,7 +70,7 @@ for(const j = 0; j < 10; j++) { //error
 console.log(k); //error
 ```
 
-In the example above we will get a multitude of errors. First being with `i = 3;`. Const acts like a constant does in most programming languages as it can't be reassigned. Another error will be in the for loop. Since the reference cannot be changed, the value of j in this example cannot be changed, which is not good in the case of for loops. const is also block scoped. One thing not to get confused about is that const does not mean immutable. If you decalre a object to be const, you can still change the values within that object, you just cannot point it to a different instance.
+In the example above we will get a multitude of errors. First being with `i = 3;`. Const acts like a constant does in most programming languages as it can't be reassigned. Another error will be in the for loop. Since the reference cannot be changed, the value of j in this example cannot be changed, which is not good in the case of for loops. const is also block scoped. One thing not to get confused about is that const does not mean immutable. If you declare an object to be const, you can still change the values within that object, you just cannot point it to a different instance.
 
 <h2>Truthiness</h2>
   
@@ -108,7 +108,7 @@ if(x === y) {
 }
 ```
   
-  In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true.
+In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true.
  
   
 
