@@ -67,13 +67,11 @@ for(const j = 0; j < 10; j++) { //error
 }
 
 console.log(k); //error
-
-
 ```
 
 In the example above we will get a multitude of errors. First being with `i = 3;`. Const acts like a constant does in most programming languages as it can't be reassigned. Another error will be in the for loop. Since the reference cannot be changed, the value of j in this example cannot be changed, which is not good in the case of for loops. const is also block scoped. One thing not to get confused about is that const does not mean immutable. If you decalre a object to be const, you can still change the values within that object, you just cannot point it to a different instance.
 
-<h2>Truthiness<h2>
+<h2>Truthiness</h2>
   
 One thing that javascript has that kind of mind boggles me is the results of == vs === and truthy vs falsy values. So to start off what exactly is a truthy or falsy value? Well a falsy value is anything that has the values of
 ```
