@@ -94,8 +94,7 @@ if("Do aliens exist?"){
   
 Now with regards to == and === the former is a loose equality testing. Basically meaning if it can be converted to the same "type" and compared it will return true. === is strict equality testing. Meaning if they are not the same type it will return false.
   
-```js
-  
+```js  
 let x = 1;
 let y = "1";
   
