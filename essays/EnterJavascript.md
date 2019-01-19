@@ -40,6 +40,38 @@ The above snippet shows a bit of oddities with using var. First, how on earth am
 
 Now how did I use the variable outside of the for loop? Thats explained by vars scoping rules. It is either local to the function or global. Since it was no declared within a function it is a global variable and thus is visible to all.
 
+<h2>Let and Const</h2>
+
+With the introduction of the ES6 standard let and const were introduced. Why might you ask? I can only assume it was to reign in vars unpredicable nature as it seems extremely easy to abuse. Both let and const brought back block scoping that we all know and love.
+
+```js
+for(let i = 0; i < 10; i++ {
+    
+    }
+console.log(i);
+```
+
+In the above code snippit it seems were back to sanity! console.log(i) will cause javascript to throw an error. Why? because let is block scoped, meaning it lives only within its scope.
+
+```js
+const i = 0;
+i = 3;
+
+for(const j = 0; j < 10; j++) {
+  
+}
+
+{
+  const k = 0;
+}
+
+console.log(k);
+
+
+```
+
+In the example above we will get a multitude of errors. First being with `i = 3;`. Const acts like a constant does in most programming languages as it can't be reassigned. Another error will be in the for loop. Since the reference cannot be changed, the value of j in this example cannot be changed, which is not good in the case of for loops. const is also block scoped. One thing not to get confused about is that const does not mean immutable. If you decalre a object to be const, you can still change the values within that object, you just cannot point it to a different instance.
+  
 
 
 
