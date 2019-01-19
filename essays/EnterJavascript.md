@@ -26,7 +26,7 @@ var value = 0;
 ```
 
 <h2>Var</h2>
-All of the different "types" you can use in Javascript are not referring to their data type, but instead their behavior. If you use var the variable will either be scoped to the function it's inside of or global.
+All of the different "types" you can use in Javascript are not referring to their data type, but instead their behavior. The data type of the variable is inferred by what is assigned to it, it can be anything from a primitive int to a Object. In regards to it's scope, if you use var the variable will either be scoped to the function it's inside of or global.
 
 ```js
 console.log(i);
