@@ -9,7 +9,7 @@ labels:
   
 ---
 
-My first programming language that I could call myself proficient with was Java. I fell in love with the structure, the verbosity, and the overall standard java library. Everything seems well thought out and put together in that language. Now, enter Javascript. At first it seems like the wild west of programming languages. One example is instead of implicitly declaring a variable and declaring its type, it's inferred. This is called being a weakly typed language 
+My first programming language that I could call myself proficient with was Java. I fell in love with the structure, the verbosity, and the overall standard java library. Everything seems well thought out and put together in that language. Now, enter Javascript. At first it seems like the wild west of programming languages. One example is instead of implicitly declaring a variable and declaring its type like in java, it's inferred. This is called being a weakly typed language and is a bit worrisom at first.
 
 In Java we would do this
 ```java
@@ -29,9 +29,10 @@ var value = 0;
 All of the different "types" you can use in Javascript are not referring to their data type, but instead their behavior. The data type of the variable is inferred by what is assigned to it, it can be anything from a primitive int to a Object. In regards to it's scope, if you use var the variable will either be scoped to the function it's inside of or global.
 
 ```js
-console.log(i);
+console.log(i); //ME: there's no way this can work! JS: "Hold my beer!"
 for(var i = 0; i < 10; i++){
-}
+	
+	}
 
 console.log(i);
 ```
@@ -48,29 +49,73 @@ With the introduction of the ES6 standard let and const were introduced. Why mig
 for(let i = 0; i < 10; i++ {
     
     }
-console.log(i);
+console.log(i); //error
 ```
 
 In the above code snippit it seems were back to sanity! console.log(i) will cause javascript to throw an error. Why? because let is block scoped, meaning it lives only within its scope.
 
 ```js
 const i = 0;
-i = 3;
+i = 3; //error 
 
-for(const j = 0; j < 10; j++) {
+for(const j = 0; j < 10; j++) { //error
   
-}
+	}
 
 {
   const k = 0;
 }
 
-console.log(k);
+console.log(k); //error
 
 
 ```
 
 In the example above we will get a multitude of errors. First being with `i = 3;`. Const acts like a constant does in most programming languages as it can't be reassigned. Another error will be in the for loop. Since the reference cannot be changed, the value of j in this example cannot be changed, which is not good in the case of for loops. const is also block scoped. One thing not to get confused about is that const does not mean immutable. If you decalre a object to be const, you can still change the values within that object, you just cannot point it to a different instance.
+
+<h2>Truthiness<h2>
+  
+One thing that javascript has that kind of mind boggles me is the results of == vs === and truthy vs falsy values. So to start off what exactly is a truthy or falsy value? Well a falsy value is anything that has the values of
+```
+false
+0
+'' or "" //an empty string)
+null
+undefined
+NaN
+```
+  
+So what is a truthy value might you ask? Literally everything else. Take the example below
+
+```js
+  if("Do aliens exist?"){
+  	console.log("THEY DO!") //will print
+  }
+```
+  
+Now with regards to == and === the former is a loose equality testing. Basically meaning if it can be converted to the same "type" and compared it will return true. === is strict equality testing. Meaning if they are not the same type it will return false.
+  
+```js
+  
+let x = 1;
+let y = "1";
+  
+if(x == y){
+  console.log("x == y is true"); // will print
+  }
+  
+if(x === y) {
+  console.log("x === y is true"); // will not print
+  }
+```
+  
+  In the above example you can see that 'x == y' will loosely evaulate if they are equal, and then return true.
+ 
+  
+
+<h2>Opinion</h2>
+
+Now, what is my opinion on Javascript might you ask? Well if it was before ES6 and I only had var to work with I might have screamed. But it seems that with the newer standards javascript is bringing a little bit more structure to the style in which people use it. As of right now, I think I like it, but as I delve furthur into its depths, I'm sure there will be oddities that rub me the wrong way, but that's true of any language. I could get into truthiness but that 
   
 
 
