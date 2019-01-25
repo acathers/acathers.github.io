@@ -14,17 +14,7 @@ labels:
 
 Looking at this example above, you might immediately say you don't know the answer. But, if you had the knowledge, or have done something similiar it would be easy to know if you had the ability to answer this question right off the bat. Everything is presented in a clear and concise matter, and you don't have to ask follow up questions. This poster made it extremely easy for someone to read his question, and formulate a well thought out reponse
 
-
-
-
-
-
-
-
-
-
-
-
+<br><br><br><br><br>
 <h2>Not-so-good Questions</h2>
 
 <img class="ui large right floated image" src="../images/bad-question.png" />
