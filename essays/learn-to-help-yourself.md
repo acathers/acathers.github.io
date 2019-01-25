@@ -26,7 +26,7 @@ Asking a smart question is an essential tool that will make your life much easie
 
 Another benefit of asking a smart question is that it forces you to put all of the information down, and that act itself might lead to you having a revelation and solving the problem yourself. It's a little bit like rubber duckie debugging but without the duckie.
 
-There's almost no end to the benefits asking smart questions can bring. While it might take a bit more leg work to come up with a smart question, it 
+There's almost no end to the benefits asking smart questions can bring. While it might take a bit more leg work to come up with a smart question, it will benefit you in the long run.
 
 <h2>X-Y Questions</h2>
 
