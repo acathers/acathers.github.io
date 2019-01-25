@@ -13,3 +13,7 @@ labels:
 <h2>Good Questions</h2>
 
 Looking at this example on the left, you might immediately say you don't know the answer. But, if you had the knowledge or have done something similiar it would be easy to know if you had the ability to answer this question right off the bat. Everything is presented in a clear and concise matter, and you don't have to ask follow up questions.
+
+<h2>Not-so-good Questions</h2>
+
+<img class="ui small rounded images" src="../images/bad-question.png">
