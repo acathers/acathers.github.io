@@ -16,9 +16,11 @@ Looking at this example above, you might immediately say you don't know the answ
 
 <h2>Not-so-good Questions</h2>
 
-<img class="ui large left floated image" src="../images/bad-question.png">
+
 
 So what's wrong with the above question? You could argue that he asked a clear question, but this question really doesn't bring any benefit to anyone. First off, if the submitter had put in even the tiniest amount of effort I'm sure they could have found the answer themselves using just a little bit of google-fu. Even simpler they could have put it through a debugger and stepped through it line by line and watched in real time exactly what was happening. It shows a lack of inititive and desire, and one might even say a bit disrespectful. This poster expects someone else to do all the legwork.
+
+<img class="ui large left floated image" src="../images/bad-question.png">
 
 <h2>Why?</h2>
 
