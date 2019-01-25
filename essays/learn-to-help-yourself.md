@@ -24,6 +24,7 @@ Looking at this example above, you might immediately say you don't know the answ
 
 
 
+
 <h2>Not-so-good Questions</h2>
 
 <img class="ui large right floated image" src="../images/bad-question.png" />
