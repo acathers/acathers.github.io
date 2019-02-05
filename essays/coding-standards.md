@@ -5,6 +5,7 @@ title: "Anarchy is Not the Way"
 date: 2019-01-18
 labels:
   - Coding Standards
+---
 
 
 
