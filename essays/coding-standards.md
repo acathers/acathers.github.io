@@ -2,11 +2,13 @@
 layout: essay
 type: essay
 title: "Anarchy is Not the Way"
-date: 2019-01-18
+date: 2019-02-04
 labels:
   - Coding Standards
 ---
 
+What if you came home and went to go relax with your favorite book. Only, it seems the author somehow magically updated it and decided to go wild with how the formatting of the book was. He decided there would be three spaces 
+before periods, commas are outlawed, and 
 
 
 ```js
