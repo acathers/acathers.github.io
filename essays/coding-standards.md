@@ -7,8 +7,11 @@ labels:
   - Coding Standards
 ---
 
+
+<h2>Why</h2>
 What if you came home and went to go relax with your favorite book. Only, it seems the author somehow magically updated it and decided to go wild with how the formatting of the book was. He decided there would be three spaces 
-before periods, commas are outlawed, and 
+before periods, commas are outlawed, and he decided that it's easier to not format it into chapters anymore. Would you still enjoy reading it? If that's how you code, most likely that is how other developers will view your code, 
+unable to be read, hard to follow, and impossible to maintain.
 
 
 ```js
@@ -16,6 +19,12 @@ if(true)console.log("this");if(true)(console.log("is horrid"));
 ```
 
 You can most likely discern what the above line does, but could you imagine if thousands of lines in a source code did odd and unreadable things like this?
+
+<h2>What are coding standards?</h2>
+
+Everyone might have their own slightly different definition of what coding standards are, but for the majority they are a guideline that we follow to write code. It can be something simple from how many characters per line, how you
+format your braces, to avoidance and use of certain design patterns. Their purpose is to make it easier to maintain, update, and share your code with others. It can also make your life easier while programming. If you consistently
+follow a coding standard, when you make errors they might jump out at you more. They probably won't help with logic errors, but they can definitely cut down on syntax errors.
   
   
 
