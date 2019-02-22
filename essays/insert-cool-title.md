@@ -34,4 +34,5 @@ So what are the benefits of using a UI Framework?
 <ol>
   <li>Quickly design nice looking user interfaces</li>
   <li>The CSS and tools are usually well written, and tested much more than a single developer ever could</li>
-  <li>Can allow you much more time to spend on harder tasks, rather than fighting a stubborn div that just won't line up</li>
+  <li>Can allow you much more time to spend on harder tasks, rather than fighting a stubborn div that just won
+</ol>
