@@ -10,7 +10,7 @@ labels:
   - Semantic UI
 ---
 
-<h1> What is a UI framework? </h1>
+<h2> So, what is a UI framework? </h2>
 
 A UI framework is a tool we can use to make life easier when designing the front end of a website. It provides a solid 
 base of pre-written code that we can draw on to do what we want. If you want a menu bar? It most likely has some of the 
