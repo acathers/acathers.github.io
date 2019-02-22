@@ -21,4 +21,5 @@ a 1995 angelfire page, to something more modern. For example
 </p>
 
 <img class="ui medium center floated rounded image" src="../images/browserhistory-old.png">
+To something more like this
 <img class="ui medium center floated rounded image" src="../images/browserhistory-new.png">
