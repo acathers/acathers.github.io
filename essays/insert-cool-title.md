@@ -27,7 +27,7 @@ the updated version on the right using the Semantic UI framework.
 
 
 <p>
-<br>
+<br><br><br><br>
 <br>
 
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
