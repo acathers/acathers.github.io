@@ -17,13 +17,21 @@ base of pre-written code that we can draw on to do what we want. If you want a m
 complicated CSS already written out and all you have to do is use the correct class. </p>
 
 <p>So what does a UI framework allow us to do? With about 10 minutes of time you can take your website from looking like
-a 1995 angelfire page, to something more modern. For example
+a 1995 angelfire page, to something more modern. For example take the original version of this simple site on the left, and
+the updated version on the right using the Semantic UI framework.
 </p>
 <div class="ui container center aligned">
 <img class="ui medium center floated rounded image" src="../images/browserhistory-old.png">
-To something more like this
+
 <img class="ui medium center floated rounded image" src="../images/browserhistory-new.png">
 </div>
 
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
-than the previous version of the site. 
+than the previous version of the site. But, it actually took less time to do the second version than the first version!
+
+<h2>Benefits</h2>
+So what are the benefits of using a UI Framework? 
+<ol>
+  <li>Quickly design nice looking user interfaces</li>
+  <li>The CSS and tools are usually well written, and tested much more than a single developer ever could</li>
+  <li>Can allow you much more time to spend on harder tasks, rather than fighting a stubborn div that just won't line up</li>
