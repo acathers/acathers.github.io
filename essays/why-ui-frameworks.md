@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: 
+title: Why UI Frameworks? 
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
 labels:
