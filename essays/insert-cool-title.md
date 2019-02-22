@@ -21,8 +21,8 @@ a 1995 angelfire page, to something more modern. For example take the original v
 the updated version on the right using the Semantic UI framework.
 
 
-<img class="ui medium rounded centered image" src="../images/browserhistory-old.png">
-<img class="ui medium rounded centered image" src="../images/browserhistory-new.png">
+<img class="ui medium rounded floated spaced image" src="../images/browserhistory-old.png">
+<img class="ui medium rounded floated spaced image" src="../images/browserhistory-new.png">
 
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
 than the previous version of the site. But, it actually took less time to do the second version than the first version!
