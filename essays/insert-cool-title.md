@@ -12,27 +12,24 @@ labels:
 
 <h1> What is a UI framework? </h1>
 
-<p>A UI framework is a tool we can use to make life easier when designing the front end of a website. It provides a solid 
+A UI framework is a tool we can use to make life easier when designing the front end of a website. It provides a solid 
 base of pre-written code that we can draw on to do what we want. If you want a menu bar? It most likely has some of the 
-complicated CSS already written out and all you have to do is use the correct class. </p>
+complicated CSS already written out and all you have to do is use the correct class. 
 
-<p>So what does a UI framework allow us to do? With about 10 minutes of time you can take your website from looking like
+So what does a UI framework allow us to do? With about 10 minutes of time you can take your website from looking like
 a 1995 angelfire page, to something more modern. For example take the original version of this simple site on the left, and
 the updated version on the right using the Semantic UI framework.
-</p>
+
 
 <img class="ui medium rounded centered floated image" src="../images/browserhistory-old.png">
 <img class="ui medium rounded centered floated image" src="../images/browserhistory-new.png">
 
 
 
-<p>
-<br><br><br><br>
-<br>
 
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
 than the previous version of the site. But, it actually took less time to do the second version than the first version!
-</p>
+
 <h2>Benefits</h2>
 So what are the benefits of using a UI Framework? 
 <ol>
