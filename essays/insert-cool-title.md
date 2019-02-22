@@ -21,9 +21,9 @@ a 1995 angelfire page, to something more modern. For example take the original v
 the updated version on the right using the Semantic UI framework.
 </p>
 
-<img class="ui medium image" src="../images/browserhistory-old.png">
+<img class="ui medium floated image" src="../images/browserhistory-old.png">
 
-<img class="ui medium image" src="../images/browserhistory-new.png">
+<img class="ui medium floated image" src="../images/browserhistory-new.png">
 
 
 
