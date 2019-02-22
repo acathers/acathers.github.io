@@ -23,7 +23,7 @@ the updated version on the right using the Semantic UI framework.
 
 
 
-<div class="ui medium rounded images">
+<div class="ui large rounded images">
   <img src="../images/browserhistory-old.png">
   <img src="../images/browserhistory-new.png">
 </div>
