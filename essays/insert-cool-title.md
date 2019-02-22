@@ -24,7 +24,7 @@ the updated version on the right using the Semantic UI framework.
 <img class="ui medium rounded centered floated image" src="../images/browserhistory-old.png">
 <img class="ui medium rounded centered floated image" src="../images/browserhistory-new.png">
 
-
+&nbsp
 
 
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
