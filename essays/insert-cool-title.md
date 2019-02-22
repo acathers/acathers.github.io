@@ -20,10 +20,10 @@ complicated CSS already written out and all you have to do is use the correct cl
 a 1995 angelfire page, to something more modern. For example take the original version of this simple site on the left, and
 the updated version on the right using the Semantic UI framework.
 </p>
-<div class="ui medium rounded centered floated images">
-<img src="../images/browserhistory-old.png">
-<img src="../images/browserhistory-new.png">
-</div>
+
+<img class="ui medium rounded centered floated image" src="../images/browserhistory-old.png">
+<img class="ui medium rounded centered floated image" src="../images/browserhistory-new.png">
+
 
 
 <p>
