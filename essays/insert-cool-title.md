@@ -25,7 +25,11 @@ the updated version on the right using the Semantic UI framework.
 
 <img class="ui medium center floated rounded image" src="../images/browserhistory-new.png">
 </div>
+
+
 <p>
+
+
 Just looking at that transformation, you'd think someone had to have put a little bit of time into it, at least much more
 than the previous version of the site. But, it actually took less time to do the second version than the first version!
 </p>
