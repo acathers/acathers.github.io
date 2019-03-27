@@ -10,7 +10,7 @@ labels:
   - Semantic UI
 ---
 
-<h2> I Can't Park! </h2>
+<h2> A Different Approach to Parking at UH</h2>
 
 Coming into UH as a new student and figuring out parking can be an absolute nightmare. You're told you can't apply for
 a parking pass until a later date after returning students, which pretty much guarantees you won't have a parking pass.
