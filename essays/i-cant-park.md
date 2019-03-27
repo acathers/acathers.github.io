@@ -23,7 +23,7 @@ This would allow a lot more students be able to park on campus.
 <h2>Mockup</h2>
  
 <ul>
-  <li>&#U+02192</li>
+  <li>&#02192</li>
   <li></li>
   <li></li>
 </ul>
