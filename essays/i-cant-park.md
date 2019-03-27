@@ -24,10 +24,10 @@ This would allow a lot more students be able to park on campus.
  
 <ul>
   <li><b>Landing Page</b>: Login using OAuth/Require UH email &#8594; Routes to account</li>
-  <li><b>User Page</b>: Multiple tabs such as manage spaces, purchase.
-  <li><b>Purchase Spaces</b>: Allows a user to select from available spaces, and reporting. 
-  <li><b>Manage Spaces</b>: Allows user to manage already purchased spaces.
-  <li><b>Report</b>: Allows user to report unauthorized vehicle in space during their time, possibly give an alternative spot.
+  <li><b>User Page</b>: Multiple tabs such as manage spaces, purchase.</li>
+  <li><b>Purchase Spaces</b>: Allows a user to select from available spaces, and reporting. </li>
+  <li><b>Manage Spaces</b>: Allows user to manage already purchased spaces.</li>
+  <li><b>Report</b>: Allows user to report unauthorized vehicle in space during their time, possibly give an alternative spot.</li>
 </ul>
 
 <h2> Beyond the Basics </h2>
