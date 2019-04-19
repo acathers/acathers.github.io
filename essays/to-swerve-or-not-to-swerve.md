@@ -53,6 +53,7 @@ infront of a jury? The company? Is the company even liable when posed with a una
 </p>
 
 <h1>Code of Ethics</h1>
+<img class="ui medium left floated image" src="/images/do-no-harm.jpg">
 <p>
 The <a href="https://www.acm.org/code-of-ethics"> ACM code of ethics </a> list one big bullet. To do no harm. To put it
 into perspective, this is the exact same oath that your doctor had to take.Looking back at the case study one might say 
