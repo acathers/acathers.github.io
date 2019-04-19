@@ -11,7 +11,7 @@ labels:
 ---
 
 <h1>Ethics</h1>
-
+<img class="ui medium left floated image" src="/images/ethics.jpg">
 <p>
 What are ethics? I'm sure many people can give examples off the top of their head but it's a bit harder to narrow
 it down to a singular definition. Some might get flustered and say something along the lines of "To be ethical is to 
