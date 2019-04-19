@@ -54,16 +54,18 @@ infront of a jury? The company? Is the company even liable when posed with a una
 
 <h1>Code of Ethics</h1>
 <p>
-The <a href="https://www.acm.org/code-of-ethics"> ACM code of ethics </a> list one big bullet. To do no harm. 
-Looking back at the case study one might say that they clearly violated this, so lets haul off the engineer to the 
-headsmen. But what we don't immediately thinka bout is intent. Did the enginneer intend to cause harm? 
+The <a href="https://www.acm.org/code-of-ethics"> ACM code of ethics </a> list one big bullet. To do no harm. To put it
+into perspective, this is the exact same oath that your doctor had to take.Looking back at the case study one might say 
+that they clearly violated this, so lets haul off the engineer to the headsmen. But what we don't immediately thinka 
+bout is intent. Did the enginneer intend to cause harm? 
 </p>
 <p>
 I'm a believer that without intent, there really is no crime in most cases. If the engineer knew about the issue and 
 did nothing to rectify it, that would be a completely different story. 
 <p>
-So as a software engineer I beleive that one must simply have your users best interest whenever you are making a product.
-Be it a social networking site, to a online store, to a autonomous car. You could could even take a page from your 
-doctor. Doctors must take an oath, and that is to "First, do no harm." If everyone could follow that, the world would undoubtably be a better place.
+So as a software engineer I beleive that one must simply have your users best interest at heart whenever you are making 
+a product no matter what be it a social networking site, an online store, or even an autonomous car. One cannot and 
+should not release a product that will cause harm to the best of their knowledge. If you see something, say something.
+Don't sweep bugs under the rug. 
 </p>
 
