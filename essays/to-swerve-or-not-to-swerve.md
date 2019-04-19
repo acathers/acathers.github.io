@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Why UI Frameworks? 
+title: To Swerve Or Not To Swerve
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
 labels:
@@ -10,8 +10,6 @@ labels:
   - Autonomous Cars
 ---
 
-
-<div class="ui container">
 <h1>Ethics</h1>
 
 <p>
@@ -64,4 +62,4 @@ headsmen. But what we don't immediately thinka bout is intent. Did the enginneer
 I'm a believer that without intent, there really is no crime in most cases. If the engineer knew about the issue and 
 did nothing to rectify it, that would be a completely different story. 
 </p>
-</div>
+
