@@ -9,7 +9,7 @@ labels:
   - Ethics
   - Autonomous Cars
 ---
-<div class="container">
+<div class="ui container">
 <h1>Ethics</h1>
 
 <p>
