@@ -29,7 +29,7 @@ deem moral, or right.
 
 <h1>Case: Autonomous Cars</h1>
 
-<img class="ui large right floated image" src="/images/fender-bender.jpg">
+<img class="ui medium right floated image" src="/images/fender-bender.jpg">
 <p>
 From the paper <a href="https://www.technologyreview.com/s/542626/why-self-driving-cars-must-be-programmed-to-kill/">
 Why Self-Driving Cars Must Be Programmed to Kill</a> a major ethical decision is proposed. To have self driving cars 
@@ -61,5 +61,9 @@ headsmen. But what we don't immediately thinka bout is intent. Did the enginneer
 <p>
 I'm a believer that without intent, there really is no crime in most cases. If the engineer knew about the issue and 
 did nothing to rectify it, that would be a completely different story. 
+<p>
+So as a software engineer I beleive that one must simply have your users best interest whenever you are making a product.
+Be it a social networking site, to a online store, to a autonomous car. You could could even take a page from your 
+doctor. Doctors must take an oath, and that is to "First, do no harm." If everyone could follow that, the world would undoubtably be a better place.
 </p>
 
