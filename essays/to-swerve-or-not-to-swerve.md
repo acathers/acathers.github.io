@@ -9,7 +9,7 @@ labels:
   - Ethics
   - Autonomous Cars
 ---
-
+<div class="container">
 <h1>Ethics</h1>
 
 <p>What are ethics? I'm sure many people can give examples off the top of their head but it's a bit harder to narrow
@@ -31,3 +31,4 @@ with immoral. So I would say that ethics as a whole are what the majority of soc
 <p>The <a href="https://www.acm.org/code-of-ethics"> ACM code of ethics </a> list one big bullet. To do no harm. Looking back at the case study one might say that they clearly violated this, so lets haul off the engineer to the headsmen. But what we don't immediately thinka bout is intent. Did the enginneer intend to cause harm? </p>
 <p>I'm a believer that without intent, there really is no crime in most cases. If the engineer knew about the issue and did nothing to rectify it, that would be a completely different story. 
 
+</div>
