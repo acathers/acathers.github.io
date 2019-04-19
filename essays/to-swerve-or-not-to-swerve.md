@@ -1,14 +1,16 @@
 ---
 layout: essay
 type: essay
-title: To swerve or not to swerve: Ethics in motion
+title: Why UI Frameworks? 
 # All dates must be YYYY-MM-DD format!
-date: 2019-04-18
+date: 2019-02-21
 labels:
   - Software Engineering
   - Ethics
   - Autonomous Cars
 ---
+
+
 <div class="ui container">
 <h1>Ethics</h1>
 
