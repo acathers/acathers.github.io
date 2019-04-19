@@ -29,7 +29,7 @@ deem moral, or right.
 
 <h1>Case: Autonomous Cars</h1>
 
-<img class="ui small right floated image" src="/images/fender-bender.jpg">
+<img class="ui large right floated image" src="/images/fender-bender.jpg">
 <p>
 From the paper <a href="https://www.technologyreview.com/s/542626/why-self-driving-cars-must-be-programmed-to-kill/">
 Why Self-Driving Cars Must Be Programmed to Kill</a> a major ethical decision is proposed. To have self driving cars 
