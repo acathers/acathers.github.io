@@ -16,13 +16,13 @@ summary: I automated the closing tasks at my current job, by pulling data from m
 <div class="ui two column grid">
 
   <div class="ui column">
-    <a href="../images/listclubs.png" class="ui medium image">
+    <a href="../images/listclubs.png" class="ui large image">
     <img src="../images/listclubs.png"/>
     </a>
   </div>
   
   <div class="ui column">
-    <a href="../images/adminpage.png" class="ui medium image">
+    <a href="../images/adminpage.png" class="ui large image">
     <img src="../images/adminpage.png"/>
     </a>
   </div>
