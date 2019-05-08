@@ -31,7 +31,7 @@ follow a coding standard, when you make errors they might jump out at you more. 
 
 If your goal is to improve your coding abilities, coding standards can definitely help you accomlish that. Robert Martin, author of Clean Code, states that “Clean code is simple and direct. Clean code reads like well-written prose. Clean code never obscures the designer’s intent but rather is full of crisp abstractions and straightforward lines of control." While coding standards are not all that there is to writing clean code, they are definitely a big part of it. If your code reads like prose it will make future you or future maintainers life so much easier when they don't have to try to dissect what something is doing.  
 
-<img class="ui image fluid" src="images\horridcode.png">
+<img class="ui image fluid" src="../images/horridcode.png">
   
   
 
