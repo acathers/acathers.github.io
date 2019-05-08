@@ -17,10 +17,12 @@ summary: A fully functional website made using software engineering techniques
   <div class="column">
   <a href="../images/listclubs.png" class="ui medium image">
   <img src="../images/listclubs.png">
+  </a>
   </div>
   <div class="column">
     <a href="../images/adminpage.png" class="ui medium image">
     <img src="../images/adminpage.png">
+    </a>
   </div>
 </div>
 
