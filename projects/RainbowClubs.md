@@ -5,12 +5,11 @@ image: images/landing.jpg
 title: RainbowClubs
 permalink: projects/RainbowClubs
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-16
+date: 2019-05-7
 labels:
-  - Java
-  - Math
-  - Shunting Yard
-  - Algorithm
+  - Software Engineering
+  - Teamwork
+  - React/Meteor
 summary: A fully functional website made using software engineering techniques
 ---
 
