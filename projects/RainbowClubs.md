@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/landing.jpg
+image: images/landingthumbnail.jpg
 title: RainbowClubs
 permalink: projects/RainbowClubs
 # All dates must be YYYY-MM-DD format!
