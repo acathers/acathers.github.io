@@ -5,12 +5,12 @@ image: images/landing.jpg
 title: RainbowClubs
 permalink: projects/RainbowClubs
 # All dates must be YYYY-MM-DD format!
-date: 2019-05-7
+date: 2019-01-16
 labels:
   - Automatization
   - Java
   - Apache POI
-summary: A fully functional website made using software engineering techniques
+summary: I automated the closing tasks at my current job, by pulling data from multiple excel documents using Apache POI
 ---
 
 <div class="ui two column grid">
@@ -27,10 +27,9 @@ summary: A fully functional website made using software engineering techniques
     </a>
   </div>
 </div>
-  
+
+Source: <a href="https://github.com/acathers/ReportGenerator"><i class="large github icon"></i>ReportGenerator</a>
 
 
 
 
- 
-Source: <a href="https://github.com/rainbowclubs/rainbowclubs"><i class="large github icon"></i>RainbowClubs</a>

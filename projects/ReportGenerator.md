@@ -46,6 +46,3 @@ public boolean setStartRowAndCol(Workbook wb) {
 ```
 
 Source: <a href="https://github.com/acathers/ReportGenerator"><i class="large github icon"></i>ReportGenerator</a>
-
-
-
