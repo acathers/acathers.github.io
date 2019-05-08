@@ -51,7 +51,7 @@ MongoDB was the easiest part to learn. You simply connect Meteor to your MongoDB
 The major bug that I had came at the end. The project worked beautifully locally, but when I deployed it nothing worked. I was getting undefined for the user types that should have been saved in Meteors account collection. So I
 went back to the docs and it said profile should not be used due to security concerns since it is automatically read/write allowed for the client. So I decided to rewrite it using a subscription. Still worked locally and deployed no go. So I used an app called <a href="https://robomongo.org">Robo 3T</a> to inspect the MongoDB (I could have used mini mongo but I wasn't too sure if it was actually connecting to the DB). I logged in and lo and behold the user accounts were there, but their profile data was empty. I poured over the code that created accounts and could see nothing wrong. Then it dawned on me, what if nothing was being passed? I opened up the settings.development file and looked at the user accounts json and it was fine. Then another realization, this is not the file that is used when I deploy. I open up the settings.production file and there it is. No type data in any of there default users json. So on creation, no data was being passed thus undefined.
 
-Source: <a href="https://github.com/rainbowclubs/rainbowclubs"><i class="large github icon"></i>RainbowClubs</a>
+Source: <a href="https://github.com/rainbowclubs/rainbowclubs"><i class="large github icon"></i>RainbowClubs</a>    Deployed: <a href="http://rainbowclubs.meteorapp.com>Rainbow Clubs</a>
 
 
 
