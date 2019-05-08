@@ -31,7 +31,10 @@ summary: I automated the closing tasks at my current job, by pulling data from m
 <h1>First project with webdev</h1>
 This was my first project I ever accompolished collaboritively and in the realm of web development. There were a lot of learning pains going through it. At first everything seemed like a massive feat
 then as I learned the tech stack a little better (Meteor and Semantic UI) everything seemed to go rather smoothly.
+
 <h1>Working with a team</h1>
+This was my far the biggest hurdle in this project. All projects up until this point in my life I have been able to accomplish solo. This one was another beast all together. It required communication and relying on
+other teammates to do their parts so that I could finish mine.
 
 
 Source: <a href="https://github.com/acathers/ReportGenerator"><i class="large github icon"></i>ReportGenerator</a>
