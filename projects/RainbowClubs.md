@@ -7,9 +7,9 @@ permalink: projects/RainbowClubs
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-7
 labels:
-  - Software Engineering
-  - Teamwork
-  - React/Meteor
+  - Automatization
+  - Java
+  - Apache POI
 summary: A fully functional website made using software engineering techniques
 ---
 
