@@ -59,7 +59,10 @@
         "C++",
         "Java",
         "Javascript",
-        "Spring Boot"
+        "Spring Boot",
+        "Meteor",
+        "React",
+        "MongoDB"
        ]
     },
     {
@@ -103,7 +106,7 @@
       "position": "Lead mechanic",
       "website": "http://www.jiffylube.com",
       "startDate": "2017-03-11",
-      "endDate": "Present",
+      "endDate": "2019-01-15",
       "summary": "Lead mechanic",
       "highlights": [
         "Repaired variety of makes/models utilizing appropriate repair manuals and tools",
