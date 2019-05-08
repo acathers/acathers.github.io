@@ -55,7 +55,7 @@ went back to the docs and it said profile should not be used due to security con
   <img class="ui fluid image" src="../images/landing.jpg">
 </a>
 
-Source: <a href="https://github.com/rainbowclubs/rainbowclubs"><i class="large github icon"></i>RainbowClubs</a>    Deployed: <a href="http://rainbowclubs.meteorapp.com>Rainbow Clubs</a>
+Source: <a href="https://github.com/rainbowclubs/rainbowclubs"><i class="large github icon"></i>RainbowClubs</a>    Deployed: <a href="http://rainbowclubs.meteorapp.com">Rainbow Clubs</a>
 
 
 
