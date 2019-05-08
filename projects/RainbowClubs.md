@@ -35,8 +35,8 @@ then as I learned the tech stack a little better (Meteor and Semantic UI) everyt
 It was simply a website that allowed us to take the data from <a href="http://www.manoa.hawaii.edu/studentlife/studentorg/rio.php">UH Manoas registered independant organizations</a> and allow people to register/manage/browse the clubs.
 
 <h1>Working with a team</h1>
-This was my far the biggest hurdle in this project. All projects up until this point in my life I have been able to accomplish solo. This one was another beast all together. It required communication and relying on
-other teammates to do their parts so that I could finish mine. 
+One major hurdle in this project was learning to work with a team. All projects up until this point in my life I have been able to accomplish solo. This one was another beast all together. It required communication and relying on
+other teammates to do their parts so that I could finish mine. There were at times where I had to hold off on commiting because another feature needed to be implemented or my update would have broken. So I had to wait for the teammate to finish theirs, merge the changes they made into my branch, then update accordingly. The fix would probably have been to assign things that relied on other things all to one person, but sometimes this couldn't be avoided.
 
 <h1>Tech Stack</h1>
 The tech stack that was chosen for this project was Meteor/Semantic UI React/ MongoDB. 
