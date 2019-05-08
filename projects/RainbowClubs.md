@@ -14,6 +14,7 @@ summary: A fully functional website made using software engineering techniques
 ---
 
 <div class="ui two column grid">
+  <div class="column">
   <a href="../images/listclubs.png" class="ui medium image">
   <img src="../images/listclubs.png">
   </a>
