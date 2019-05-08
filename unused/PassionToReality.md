@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: 
 title: Passion to Reality
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-16

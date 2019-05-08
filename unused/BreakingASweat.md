@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: 
 title: "Breaking A Sweat"
 date: 2019-01-18
 labels:

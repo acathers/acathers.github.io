@@ -1,6 +1,6 @@
 ---
 layout: essay
-type: essay
+type: 
 title: I Can't Park! 
 # All dates must be YYYY-MM-DD format!
 date: 2019-03-26
