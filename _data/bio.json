@@ -42,13 +42,6 @@
         "Client/Server"
       ]
     },
-    {
-      "name": "Gaming",
-      "keywords": [
-        "Counter Strike",
-        "Stardew Valley"        
-      ]
-    }
   ],
   "skills": [
     {
@@ -64,7 +57,6 @@
         "React",
         "MongoDB",
         "SQL",
-        
        ]
     },
     {
@@ -106,18 +98,7 @@
         "Intro to Computer Science I && II",
         "Calculus I && II"        
       ]
-    },
-    {
-      "institution": "Windward Community College, Kaneohe, HI",
-      "area": "Liberal Arts",
-      "studyType": "A.A.",
-      "startDate": "2017-01-01",
-      "endDate": "2018-12-14",
-      "gpa": "3.7",
-      "courses": [
-       ]
-    }
-    
+    }    
   ],
   "work": [
     {
